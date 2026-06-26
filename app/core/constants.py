@@ -1,9 +1,19 @@
-N_FRAMES = 16
+from typing import Final
 
-IMG_SIZE = 224
+N_FRAMES: Final[int] = 16
 
-MEAN = [0.485, 0.456, 0.406]
+IMG_SIZE: Final[int] = 224
 
-STD = [0.229, 0.224, 0.225]
+MEAN: Final[tuple[float, float, float]] = (
+    0.485,
+    0.456,
+    0.406,
+)
 
-CRASH_THRESHOLD = 0.5
+STD: Final[tuple[float, float, float]] = (
+    0.229,
+    0.224,
+    0.225,
+)
+
+CRASH_THRESHOLD: Final[float] = 0.50
