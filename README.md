@@ -9,7 +9,6 @@
 
 **Project:** AegisSafeRoad / Traffic Sentinel  
 **Task:** Binary video classification — Normal Traffic vs. Car Crash  
-**Author:** Ryan (Software Engineering, AI II — Universidad, Colombia)  
 **Hardware:** Google Colab Pro — T4 / L4 GPU  
 **Framework:** PyTorch 2.x, OpenCV, FFmpeg, Ultralytics  
 
